@@ -1,0 +1,55 @@
+body{
+    background-color: plum;
+	margin:1%;
+	padding:1%;
+	font-size:150%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+h1{
+    text-align: center;
+	font-size: 2em; 
+	font-weight: bold;
+}
+
+img{
+    height: 400px;
+    width:auto;
+    padding: 25px;
+    margin: 10px;
+}
+
+h2{
+	font-size: 2em; 
+	font-weight: bold;
+}
+
+p, h1, h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+header, nav, main, h1, footer{
+	margin: 10px 0;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-self: center;
+    align-content: center;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+
+
